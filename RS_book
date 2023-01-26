@@ -1,0 +1,91 @@
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+@article{knuth84,
+  author = {Knuth, Donald E.},
+  title = {Literate Programming},
+  year = {1984},
+  issue_date = {May 1984},
+  publisher = {Oxford University Press, Inc.},
+  address = {USA},
+  volume = {27},
+  number = {2},
+  issn = {0010-4620},
+  url = {https://doi.org/10.1093/comjnl/27.2.97},
+  doi = {10.1093/comjnl/27.2.97},
+  journal = {Comput. J.},
+  month = may,
+  pages = {97–111},
+  numpages = {15}
+}
+
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+Version: 1.0
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+# Summary
+
+In summary, this book has no content whatsoever.
+
+```{r}
+1 + 1
+```
+
+project:
+  type: book
+
+book:
+  title: "RS book"
+  author: "Yuanru Gao"
+  date: "25/01/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1 + 2
+```
+
